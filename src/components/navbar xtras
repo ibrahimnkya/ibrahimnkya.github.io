@@ -1,0 +1,10 @@
+  <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="fab fa-codepen"></i> Projects
+              </Nav.Link>
+            </Nav.Item>
+            
